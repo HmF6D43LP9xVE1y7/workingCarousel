@@ -1,0 +1,96 @@
+.jsCarousel {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  .jsCarousel > ul {
+    height: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 9999px;
+  }
+  .jsCarousel > ul li {
+    display: inline-block;
+    float: left;
+    width: 100vw;
+    transition: margin-left 0.3s ease;
+  }
+  .jsCarousel > ul li img {
+    width: 100vw;
+    height: 100vh;
+  }
+  .jsCarousel .jsCarousel-arrowPrev,
+  .jsCarousel .jsCarousel-arrowNext {
+    background: transparent;
+    border: 0;
+    color: #e0e0e0;
+    cursor: pointer;
+    font: 400 10em sans-serif;
+    height: 200px;
+    outline: 0;
+    position: absolute;
+    top: 0;
+    text-shadow: 0 0 10px #444444;
+    width: 90px;
+    transition: all 0.2s ease;
+  }
+  .jsCarousel .jsCarousel-arrowPrev:hover,
+  .jsCarousel .jsCarousel-arrowNext:hover {
+    color: #aaaaaa;
+  }
+  .jsCarousel .jsCarousel-arrowPrev {
+    left: 0;
+  }
+  .jsCarousel .jsCarousel-arrowNext {
+    right: 0;
+  }
+  .jsCarousel .jsCarousel-dots {
+    display: inline-block;
+    height: 1.25em;
+    margin: 0;
+    position: absolute;
+    bottom: 1em;
+    right: 50vw;
+    width: auto;
+  }
+  .jsCarousel .jsCarousel-dots li {
+    background: #aaaaaa;
+    border-radius: 0.75em;
+    cursor: pointer;
+    display: inline-block;
+    height: 0.75em;
+    margin: 0 0.75em;
+    width: 0.75em;
+    transition: all 0.2s ease;
+  }
+  .jsCarousel .jsCarousel-dots li.is-active {
+    background: #ffffff;
+    box-shadow: 0 0 3px 3px #ddd;
+  }
+  .jsCarousel .jsCarousel-dots li:hover {
+    background: #f5f5f5;
+  }
+  .jsCarousel .jsCarousel-btnStop,
+  .jsCarousel .jsCarousel-btnPlay {
+    background: #aaaaaa;
+    border: 0;
+    cursor: pointer;
+    height: 2.25em;
+    position: absolute;
+    bottom: 1em;
+    left: 2em;
+    text-align: center;
+    width: 5em;
+    transition: all 0.2s ease;
+  }
+  .jsCarousel .jsCarousel-btnStop:hover,
+  .jsCarousel .jsCarousel-btnPlay:hover {
+    background: #f5f5f5;
+  }
+  .jsCarousel .jsCarousel-btnStop {
+    left: 100px;
+  }
+  
