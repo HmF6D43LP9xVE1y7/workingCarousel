@@ -7,9 +7,7 @@
   }
   .jsCarousel > ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 1000vw;
+    width: 1000%;
     height: 100vh;
   }
   .jsCarousel > ul li {
@@ -24,12 +22,12 @@
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
     font-family: "Bootstrap-icons";
     background: transparent;
-    border: 0;
     color: black;
     cursor: pointer;
     position: absolute;
-    width: 4rem;
+    width: 3rem;
     bottom: 0;
+    font-size: 3rem;
   }
   .jsCarousel .jsCarousel-arrowPrev:hover, .jsCarousel .jsCarousel-arrowNext:hover {
     opacity: .3;
@@ -46,9 +44,14 @@
     display: inline-block;
     height: 15px;
     position: absolute;
-    bottom: 1em;
     width: auto;
-    left: 45vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: .5rem;
   }
   .jsCarousel .jsCarousel-dots li {
     opacity: .3;
@@ -56,8 +59,8 @@
     border-radius: 1rem;
     display: inline-block;
     height: .5rem;
-    margin: 0 0.5rem;
-    width: 0.5rem;
+    margin: 0 .5rem;
+    width: .5rem;
   }
   .jsCarousel .jsCarousel-dots li.is-active {
     opacity: 1;
@@ -97,6 +100,9 @@
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
     height: 4rem;
   }
+  .jsCarousel .jsCarousel-dots {
+    bottom: 1.5rem;
+  }
 }
 
 /* tablet */
@@ -104,6 +110,9 @@
 @media only screen and (min-width: 768px) and (max-width: 1160px) {
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
     height: 100vh;
+  }
+  .jsCarousel .jsCarousel-dots {
+    bottom: 3rem;
   }
 }
 
@@ -113,6 +122,9 @@
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
     height: 100vh;
   }
+  .jsCarousel .jsCarousel-dots {
+    bottom: 3rem;
+  }
 }
 
 /* desktop ultrawide */
@@ -120,5 +132,8 @@
 @media only screen and (min-width: 1160px) and (min-aspect-ratio: 21/9) {
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
     height: 100vh;
+  }
+  .jsCarousel .jsCarousel-dots {
+    bottom: 3rem;
   }
 }

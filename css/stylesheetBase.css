@@ -11,11 +11,8 @@
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
-    /*
     -ms-overflow-style: none;
     scrollbar-width: none;
-    */
-    scrollbar-color: rgba(255, 255, 255, .3) transparent;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -238,7 +235,7 @@ img {
     display: inline-block;
 }
 
-/* DEBUG */
+/* DEBUG *//*
 
 * {
     background-color: rgba(255, 0, 0, .2);
