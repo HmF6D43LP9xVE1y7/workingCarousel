@@ -15,7 +15,7 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
     */
-    scrollbar-color: rgba(138, 215, 203, .5) transparent;
+    scrollbar-color: rgba(255, 255, 255, .3) transparent;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -27,7 +27,7 @@
     -ms-user-select: none;
     user-select: none;
     font-size: 100%;
-    text-align: left;
+    text-align: center;
     text-transform: none;
     text-decoration: none;
     vertical-align: baseline;
@@ -108,9 +108,11 @@ a:hover {
 
 .hidden {
     opacity: 0;
+    transform: translateY(1rem);
 }
 .visible {
     opacity: 1;
+    transform: translateY(0);
 }
 
 /* mobile */
@@ -200,17 +202,32 @@ a:hover {
 
 /* image sources */
 
-#asset_000_000 {
+#asset_01_concrete_000 {
     background-image: url("../assets/asset_000_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
-#asset_000_001 {
+#asset_01_concrete_001 {
     background-image: url("../assets/asset_000_001.jpg") !important;
     background-position: center;
     background-size: cover;
 }
-#asset_000_002 {
+#asset_01_concrete_002 {
+    background-image: url("../assets/asset_000_002.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_02_furka_000 {
+    background-image: url("../assets/asset_000_000.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_03_cupcake_001 {
+    background-image: url("../assets/asset_000_001.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_04_icons_002 {
     background-image: url("../assets/asset_000_002.jpg") !important;
     background-position: center;
     background-size: cover;
@@ -225,7 +242,7 @@ img {
     display: inline-block;
 }
 
-/* DEBUG *//*
+/* DEBUG */
 
 * {
     background-color: rgba(255, 0, 0, .2);
