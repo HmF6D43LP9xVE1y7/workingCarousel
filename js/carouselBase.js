@@ -7,8 +7,8 @@ function Carousel(n) {
         e = n.interval || 3e3,
         r = n.btnPlayText || "Play",
         l = n.btnStopText || "Stop",
-        a = n.arrNextText || "right",
-        o = n.arrPrevText || "left",
+        a = n.arrNextText || "\uF285",
+        o = n.arrPrevText || "\uF284",
         u = "jsCarousel",
         c = "jsCarousel-arrowPrev",
         s = "jsCarousel-arrowNext",
@@ -106,15 +106,18 @@ function Carousel(n) {
     }
     return 1 < p && function () {
         var e = {
+            
             dots: function () {
                 return function () {
                     var e = document.createElement("ul");
                     e
                         .classList
-                        .add(d),
+                        .add(d)
+/*
                     e.addEventListener("click", function (e) {
                         "LI" === e.target.tagName && (C(e.target.getAttribute("data-position")), A())
                     }.bind(this));
+*/
                     for (var t = 0; t < p; t++) {
                         var n = document.createElement("li");
                         n.setAttribute("data-position", t),
@@ -142,6 +145,7 @@ function Carousel(n) {
                     i.appendChild(t)
                 }()
             },
+/*
             buttons: function () {
                 return function () {
                     var e = document.createElement("button");
@@ -163,6 +167,7 @@ function Carousel(n) {
             autoplay: function () {
                 return x()
             },
+*/
             infinite: function () {
                 return m(p - 1, -i.offsetWidth + "px", "afterBegin")
             },

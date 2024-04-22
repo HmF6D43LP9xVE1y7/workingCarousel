@@ -6,13 +6,16 @@
     padding: 0;
     margin: 0;
     border: 0;
-    -webkit-transition: opacity .3s ease;
-    -moz-transition: opacity .3s ease;
-    -ms-transition: opacity .3s ease;
-    -o-transition: opacity .3s ease;
-    transition: opacity .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    /*
     -ms-overflow-style: none;
     scrollbar-width: none;
+    */
+    scrollbar-color: rgba(138, 215, 203, .5) transparent;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -35,7 +38,7 @@
     -ms-hyphens: auto;
     hyphens: auto;
     */
-    color: rgba(0, 0, 0, 1);
+    color: white;
 }
 body {
     background-color: rgba(255, 255, 255, 1);
@@ -78,32 +81,143 @@ a:hover {
     cursor: pointer;
 }
 
+.navP, .navN {
+    position: fixed;
+    height: 1rem;
+    width: 100vw;
+    z-index: 1;
+}
+.navP {
+    top: 0;
+}
+.navN {
+    bottom: 0;
+}
 
+.scrollContainer {
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: both mandatory;
+}
+.scrollSection {
+    height: 100vh;
+    scroll-snap-align: start;
+}
 
+/* page fadein stuff */
 
-#asset_000 {
-    background-image: url("../assets/tim_ott_ffzh_2020_01_archive_datenbanken_2_recherche_scan_art_multimedia_003.jpeg") !important;
+.hidden {
+    opacity: 0;
+}
+.visible {
+    opacity: 1;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 767px) {
+    :root {
+        --gridWidth: 16;
+        --viewWidth: 100vw;
+    }
+    .fontL {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.5);
+    }
+    .fontM {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
+    }
+    .fontS {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .75);
+    }
+}
+
+/* tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 1160px) {
+    :root {
+        --gridWidth: 46;
+        --viewWidth: 100vw;
+    }
+    .fontL {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
+    }
+    .fontM {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
+    }
+    .fontS {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
+    }
+}
+
+/* desktop */
+
+@media only screen and (min-width: 1160px) {
+    :root {
+        --gridWidth: 44;
+        --viewWidth: 100vw;
+    }
+    .fontL {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.8);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 2);
+    }
+    .fontM {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
+    }
+    .fontS {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .45);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .5);
+    }
+}
+
+/* desktop ultrawide */
+
+@media only screen and (min-width: 1160px) and (min-aspect-ratio: 21/9) {
+    :root {
+        --gridWidth: 44;
+        --viewWidth: 50vw;
+        --margin: 25vw;
+    }
+    .fontL {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
+    }
+    .fontM {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
+    }
+    .fontS {
+        font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
+        line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
+    }
+}
+
+/* image sources */
+
+#asset_000_000 {
+    background-image: url("../assets/asset_000_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
-#asset_001 {
-    background-image: url("../assets/tim_ott_ffzh_2020_01_archive_datenbanken_2_recherche_scan_astronomy_planets_002.jpeg") !important;
+#asset_000_001 {
+    background-image: url("../assets/asset_000_001.jpg") !important;
     background-position: center;
     background-size: cover;
 }
-#asset_002 {
-    background-image: url("../assets/tim_ott_ffzh_2020_01_archive_datenbanken_2_recherche_scan_cactus_004.jpeg") !important;
+#asset_000_002 {
+    background-image: url("../assets/asset_000_002.jpg") !important;
     background-position: center;
     background-size: cover;
 }
-
-
-
-
-
-
 
 /* carousel leftover css */
+
 body {
     counter-reset: item;
 }
@@ -111,7 +225,7 @@ img {
     display: inline-block;
 }
 
-/* DEBUG */
+/* DEBUG *//*
 
 * {
     background-color: rgba(255, 0, 0, .2);

@@ -6,17 +6,16 @@
     height: 100vh;
   }
   .jsCarousel > ul {
-    height: 200px;
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 9999px;
+    width: 1000vw;
+    height: 100vh;
   }
   .jsCarousel > ul li {
     display: inline-block;
     float: left;
     width: 100vw;
-    transition: margin-left 0.3s ease;
   }
   .jsCarousel > ul li img {
     width: 100vw;
@@ -24,40 +23,39 @@
   }
   .jsCarousel .jsCarousel-arrowPrev,
   .jsCarousel .jsCarousel-arrowNext {
+    font-family: "Bootstrap-icons";
     background: transparent;
     border: 0;
-    color: #e0e0e0;
+    color: black;
     cursor: pointer;
-    font: 400 10em sans-serif;
-    height: 200px;
-    outline: 0;
+    font-size: 2rem;
+    height: 100vh;
     position: absolute;
     top: 0;
-    text-shadow: 0 0 10px #444444;
-    width: 90px;
-    transition: all 0.2s ease;
+    width: 4rem;
   }
   .jsCarousel .jsCarousel-arrowPrev:hover,
   .jsCarousel .jsCarousel-arrowNext:hover {
-    color: #aaaaaa;
+    opacity: .5;
   }
   .jsCarousel .jsCarousel-arrowPrev {
     left: 0;
+    text-align: right;
   }
   .jsCarousel .jsCarousel-arrowNext {
     right: 0;
+    text-align: left;
   }
   .jsCarousel .jsCarousel-dots {
     display: inline-block;
-    height: 1.25em;
-    margin: 0;
+    height: 15px;
     position: absolute;
     bottom: 1em;
-    right: 50vw;
     width: auto;
+    left: 45vw;
   }
   .jsCarousel .jsCarousel-dots li {
-    background: #aaaaaa;
+    background: rgba(138, 215, 203, .5);
     border-radius: 0.75em;
     cursor: pointer;
     display: inline-block;
@@ -67,15 +65,18 @@
     transition: all 0.2s ease;
   }
   .jsCarousel .jsCarousel-dots li.is-active {
-    background: #ffffff;
+    background: white;
+    box-shadow: 0 0 3px 3px white;
+  }
+  /*
+  .jsCarousel .jsCarousel-dots li:hover {
+    background: white;
     box-shadow: 0 0 3px 3px #ddd;
   }
-  .jsCarousel .jsCarousel-dots li:hover {
-    background: #f5f5f5;
-  }
+  /*
   .jsCarousel .jsCarousel-btnStop,
   .jsCarousel .jsCarousel-btnPlay {
-    background: #aaaaaa;
+    background: white;
     border: 0;
     cursor: pointer;
     height: 2.25em;
