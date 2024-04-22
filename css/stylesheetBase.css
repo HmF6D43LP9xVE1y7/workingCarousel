@@ -81,19 +81,6 @@ a:hover {
     cursor: pointer;
 }
 
-.navP, .navN {
-    position: fixed;
-    height: 1rem;
-    width: 100vw;
-    z-index: 1;
-}
-.navP {
-    top: 0;
-}
-.navN {
-    bottom: 0;
-}
-
 .scrollContainer {
     height: 100vh;
     overflow-y: auto;
@@ -103,16 +90,25 @@ a:hover {
     height: 100vh;
     scroll-snap-align: start;
 }
+.description {
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
 /* page fadein stuff */
 
 .hidden {
     opacity: 0;
-    transform: translateY(1rem);
 }
 .visible {
     opacity: 1;
-    transform: translateY(0);
 }
 
 /* mobile */
@@ -203,17 +199,17 @@ a:hover {
 /* image sources */
 
 #asset_01_concrete_000 {
-    background-image: url("../assets/asset_000_000.jpg") !important;
+    background-image: url("../assets/asset_01_concrete_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
 #asset_01_concrete_001 {
-    background-image: url("../assets/asset_000_001.jpg") !important;
+    background-image: url("../assets/asset_01_concrete_001.jpg") !important;
     background-position: center;
     background-size: cover;
 }
 #asset_01_concrete_002 {
-    background-image: url("../assets/asset_000_002.jpg") !important;
+    background-image: url("../assets/asset_01_concrete_002.jpg") !important;
     background-position: center;
     background-size: cover;
 }
