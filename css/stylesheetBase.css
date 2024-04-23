@@ -77,7 +77,6 @@ a:hover {
     opacity: .3;
     cursor: pointer;
 }
-
 .scrollContainer {
     height: 100vh;
     overflow-y: auto;
@@ -226,7 +225,7 @@ a:hover {
     background-size: cover;
 }
 
-/* carousel leftover css */
+/* carousel leftover css *//*
 
 body {
     counter-reset: item;
@@ -235,7 +234,9 @@ img {
     display: inline-block;
 }
 
-/* DEBUG *//*
+*/
+
+/* DEBUG */
 
 * {
     background-color: rgba(255, 0, 0, .2);

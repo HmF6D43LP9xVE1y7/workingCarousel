@@ -26,23 +26,21 @@
     cursor: pointer;
     position: absolute;
     width: 3rem;
-    bottom: 0;
+    height: 3rem;
     font-size: 3rem;
   }
   .jsCarousel .jsCarousel-arrowPrev:hover, .jsCarousel .jsCarousel-arrowNext:hover {
     opacity: .3;
   }
   .jsCarousel .jsCarousel-arrowPrev {
-    left: 0;
-    text-align: right;
+    left: 1.5rem;
   }
   .jsCarousel .jsCarousel-arrowNext {
-    right: 0;
-    text-align: left;
+    right: 1.5rem;
   }
   .jsCarousel .jsCarousel-dots {
     display: inline-block;
-    height: 15px;
+    height: 3rem;
     position: absolute;
     width: auto;
     left: 50%;
@@ -98,42 +96,43 @@
 
 @media only screen and (max-width: 767px) {
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
-    height: 4rem;
+    top: 1.5rem;
   }
   .jsCarousel .jsCarousel-dots {
-    bottom: 1.5rem;
+    top: 1.5rem;
+  }
+}
+
+/* tablet and above */
+
+@media only screen and (min-width: 768px) {
+  .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .jsCarousel .jsCarousel-dots {
+    top: 3rem;
   }
 }
 
 /* tablet */
 
 @media only screen and (min-width: 768px) and (max-width: 1160px) {
-  .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
-    height: 100vh;
-  }
-  .jsCarousel .jsCarousel-dots {
-    bottom: 3rem;
-  }
+
 }
 
 /* desktop */
 
 @media only screen and (min-width: 1160px) {
-  .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
-    height: 100vh;
-  }
-  .jsCarousel .jsCarousel-dots {
-    bottom: 3rem;
-  }
+
 }
 
 /* desktop ultrawide */
 
 @media only screen and (min-width: 1160px) and (min-aspect-ratio: 21/9) {
-  .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
-    height: 100vh;
-  }
-  .jsCarousel .jsCarousel-dots {
-    bottom: 3rem;
-  }
+
 }
