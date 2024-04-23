@@ -27,16 +27,15 @@
     width: 3rem;
     height: 3rem;
     font-size: 3rem;
-    margin: 1.5rem;
   }
   .jsCarousel .jsCarousel-arrowPrev:hover, .jsCarousel .jsCarousel-arrowNext:hover {
     opacity: .3;
   }
   .jsCarousel .jsCarousel-arrowPrev {
-    left: 0rem;
+    left: 1.5rem;
   }
   .jsCarousel .jsCarousel-arrowNext {
-    right: 0rem;
+    right: 1.5rem;
   }
   .jsCarousel .jsCarousel-dots {
     display: inline-block;
@@ -96,10 +95,15 @@
 
 @media only screen and (max-width: 767px) {
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
-    bottom: 0rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .jsCarousel .jsCarousel-dots {
-    bottom: 1.5rem;
+    bottom: 3rem;
   }
 }
 
