@@ -96,10 +96,10 @@
 
 @media only screen and (max-width: 767px) {
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
-    top: 1.5rem;
+    bottom: 1.5rem;
   }
   .jsCarousel .jsCarousel-dots {
-    top: 1.5rem;
+    bottom: 1.5rem;
   }
 }
 
@@ -107,7 +107,7 @@
 
 @media only screen and (min-width: 768px) {
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
-    top: 50%;
+    bottom: 50%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -115,7 +115,7 @@
     transform: translateY(-50%);
   }
   .jsCarousel .jsCarousel-dots {
-    top: 3rem;
+    bottom: 3rem;
   }
 }
 
