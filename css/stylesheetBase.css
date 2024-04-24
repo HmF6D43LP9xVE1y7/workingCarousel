@@ -149,6 +149,47 @@ a:hover {
     }
 }
 
+/* tablet and above */
+
+@media only screen and (min-width: 768px) {
+    div[class^="asset_"], div[class*="asset_"]{
+        display: inline-block;
+    }
+    .asset_full {
+        width: 100vw;
+        height: 100vh;
+    }
+    .asset_left, .asset_right {
+        width: 50vw;
+        height: 100vh;
+    }
+    .asset_left {
+        float: left;
+    }
+    .asset_right {
+        float: right;
+    }
+    .asset_topleft, .asset_topright, .asset_bottomleft, .asset_bottomright {
+        width: 50vw;
+        height: 50vh;
+        color: black;
+    }
+    .asset_topleft {
+        float: left;
+    }
+    .asset_topright {
+        float: right;
+    }
+    .asset_bottomleft {
+        float: left;
+        bottom: 0 !important;
+    }
+    .asset_bottomright {
+        float: right;
+        bottom: 0 !important;
+    }
+}
+
 /* desktop */
 
 @media only screen and (min-width: 1160px) {
@@ -204,23 +245,41 @@ a:hover {
     background-position: center;
     background-size: cover;
 }
-#asset_01_concrete_002 {
-    background-image: url("../assets/asset_01_concrete_002.jpg") !important;
-    background-position: center;
-    background-size: cover;
-}
+
+
+
 #asset_02_furka_000 {
-    background-image: url("../assets/asset_000_000.jpg") !important;
+    background-image: url("../assets/asset_02_furka_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
-#asset_03_cupcake_001 {
-    background-image: url("../assets/asset_000_001.jpg") !important;
+#asset_03_cupcake_000 {
+    background-image: url("../assets/asset_03_cupcake_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
-#asset_04_icons_002 {
-    background-image: url("../assets/asset_000_002.jpg") !important;
+#asset_04_icons_000 {
+    background-image: url("../assets/asset_04_icons_000.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_05_vespa_riders_000 {
+    background-image: url("../assets/asset_05_vespa_riders_000.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_06_whipped_cream_000 {
+    background-image: url("../assets/asset_06_whipped_cream_000.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_07_giftcard_000 {
+    background-image: url("../assets/asset_07_giftcard_000.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_08_cable_car_000 {
+    background-image: url("../assets/asset_08_cable_car_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
@@ -236,7 +295,7 @@ img {
 
 */
 
-/* DEBUG */
+/* DEBUG *//*
 
 * {
     background-color: rgba(255, 0, 0, .2);
