@@ -83,7 +83,7 @@ a:hover {
     scroll-snap-type: both mandatory;
 }
 .scrollSection {
-    height: 100dvh;
+    height: 100dvh; /* dvh instead of vh */
     scroll-snap-align: start;
 }
 .description {
