@@ -18,7 +18,7 @@
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
     font-family: "Bootstrap-icons";
     background: transparent;
-    color: black;
+    color: white;
     cursor: pointer;
     position: absolute;
     width: 3rem;
@@ -92,12 +92,7 @@
 
 @media only screen and (max-width: 767px) {
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+    bottom: 2rem;
   }
   .jsCarousel .jsCarousel-dots {
     bottom: 3rem;
