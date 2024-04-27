@@ -2,18 +2,18 @@
     overflow: hidden;
     position: relative;
     width: 100vw;
-    height: 100%;
+    height: 100dvh; /* dvh instead of vh */
   }
   .jsCarousel > ul {
     list-style: none;
     width: 1000%;
-    height: 100%;
+    height: 100dvh; /* dvh instead of vh */
   }
   .jsCarousel > ul li {
     display: inline-block;
     float: left;
     width: 100vw;
-    height: 100%;
+    height: 100dvh; /* dvh instead of vh */
   }
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
     font-family: "Bootstrap-icons";
