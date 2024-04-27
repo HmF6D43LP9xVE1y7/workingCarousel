@@ -126,6 +126,42 @@ a:hover {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .75);
     }
+    div[class^="asset_"], div[class*="asset_"]{
+        display: inline-block;
+    }
+    .asset_full {
+        width: 100vw;
+        height: 100vh;
+    }
+    .asset_left, .asset_right {
+        width: 100vw;
+        height: 50vh;
+    }
+    .asset_left {
+        float: left;
+    }
+    .asset_right {
+        float: right;
+    }
+    .asset_topleft, .asset_topright, .asset_bottomleft, .asset_bottomright {
+        width: 50vw;
+        height: 50vh;
+        color: black;
+    }
+    .asset_topleft {
+        float: left;
+    }
+    .asset_topright {
+        float: right;
+    }
+    .asset_bottomleft {
+        float: left;
+        bottom: 0 !important;
+    }
+    .asset_bottomright {
+        float: right;
+        bottom: 0 !important;
+    }
 }
 
 /* tablet */
