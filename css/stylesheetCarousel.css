@@ -7,13 +7,13 @@
   .jsCarousel > ul {
     list-style: none;
     width: 1000%;
-    height: 100vh;
+    height: 100%;
   }
   .jsCarousel > ul li {
     display: inline-block;
     float: left;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
   }
   .jsCarousel .jsCarousel-arrowPrev, .jsCarousel .jsCarousel-arrowNext {
     font-family: "Bootstrap-icons";
