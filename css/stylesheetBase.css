@@ -86,9 +86,8 @@ a:hover {
     height: 100dvh; /* dvh instead of vh */
     scroll-snap-align: start;
 }
-.description {
-    width: 100vw;
-    position: absolute;
+.dscrL, .dscrM, .dscrS {
+    position: relative;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -96,6 +95,16 @@ a:hover {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+.dscrL {
+    width: 100%;
+}
+.dscrM, .dscrS {
+    width: 75%;
+    color: black;
+}
+.dscrL a, .dscrM a, .dscrS a {
+    color: black;
 }
 
 /* page fadein stuff */
@@ -114,52 +123,34 @@ a:hover {
         --gridWidth: 16;
         --viewWidth: 100vw;
     }
-    .fontL {
+    .fL, .dscrL {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.5);
     }
-    .fontM {
+    .fM, .dscrM {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
     }
-    .fontS {
+    .fS, .dscrS {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .75);
     }
     div[class^="asset_"], div[class*="asset_"]{
         display: inline-block;
     }
-    .asset_full {
+    .asset {
         width: 100vw;
         height: 100vh;
     }
-    .asset_left, .asset_right {
+    .asset_2L, .asset_2R {
         width: 100vw;
         height: 50vh;
     }
-    .asset_left {
-        float: left;
+    .asset_3L, .asset_3R, .asset_TL, .asset_TR, .asset_BL, .asset_BR {
+        width: 100vw;
+        height: 30vh;
     }
-    .asset_right {
-        float: right;
-    }
-    .asset_topleft, .asset_topright, .asset_bottomleft, .asset_bottomright {
-        width: 50vw;
-        height: 50vh;
-        color: black;
-    }
-    .asset_topleft {
-        float: left;
-    }
-    .asset_topright {
-        float: right;
-    }
-    .asset_bottomleft {
-        float: left;
-        bottom: 0 !important;
-    }
-    .asset_bottomright {
-        float: right;
+    .asset_BL, .asset_BR {
         bottom: 0 !important;
     }
 }
@@ -171,15 +162,15 @@ a:hover {
         --gridWidth: 46;
         --viewWidth: 100vw;
     }
-    .fontL {
+    .fL, .dscrL {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
     }
-    .fontM {
+    .fM, .dscrM {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
     }
-    .fontS {
+    .fS, .dscrS {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
     }
@@ -191,37 +182,25 @@ a:hover {
     div[class^="asset_"], div[class*="asset_"]{
         display: inline-block;
     }
-    .asset_full {
+    .asset {
         width: 100vw;
-        height: 100vh;
+        height: 100%;
     }
-    .asset_left, .asset_right {
+    .asset_2L, .asset_2R, .asset_3L, .asset_3R {
         width: 50vw;
-        height: 100vh;
+        height: 100%;
     }
-    .asset_left {
-        float: left;
-    }
-    .asset_right {
-        float: right;
-    }
-    .asset_topleft, .asset_topright, .asset_bottomleft, .asset_bottomright {
+    .asset_TL, .asset_TR, .asset_BL, .asset_BR {
         width: 50vw;
         height: 50vh;
-        color: black;
     }
-    .asset_topleft {
+    .asset_2L, .asset_3L, .asset_TL, .asset_BL {
         float: left;
     }
-    .asset_topright {
+    .asset_2R, .asset_3R, .asset_TR, .asset_BR {
         float: right;
     }
-    .asset_bottomleft {
-        float: left;
-        bottom: 0 !important;
-    }
-    .asset_bottomright {
-        float: right;
+    .asset_BL, .asset_BR {
         bottom: 0 !important;
     }
 }
@@ -233,15 +212,15 @@ a:hover {
         --gridWidth: 44;
         --viewWidth: 100vw;
     }
-    .fontL {
+    .fL, .dscrL {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.8);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 2);
     }
-    .fontM {
+    .fM, .dscrM {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
     }
-    .fontS {
+    .fS, .dscrS {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .45);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .5);
     }
@@ -255,15 +234,15 @@ a:hover {
         --viewWidth: 50vw;
         --margin: 25vw;
     }
-    .fontL {
+    .fL, .dscrL {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1.35);
     }
-    .fontM {
+    .fM, .dscrM {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * 1);
     }
-    .fontS {
+    .fS, .dscrS {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
     }
@@ -465,43 +444,43 @@ a:hover {
 /* img src mobile */
 
 @media only screen and (max-width: 767px) {
-    #asset_01_concrete_001b {
+    #asset_01_concrete_001 {
         background-image: url("../assets/asset_01_concrete_001b.jpg") !important;
         background-position: center;
         background-size: cover;
     }
-    #asset_02_furka_001b {
+    #asset_02_furka_001 {
         background-image: url("../assets/asset_02_furka_001b.jpg") !important;
         background-position: center;
         background-size: cover;
     }
-    #asset_02_furka_003b {
+    #asset_02_furka_003 {
         background-image: url("../assets/asset_02_furka_003b.jpg") !important;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         background-color: red;
     }
-    #asset_04_icons_001b {
+    #asset_04_icons_001 {
         background-image: url("../assets/asset_04_icons_001b.jpg") !important;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         background-color: red;
     }
-    #asset_04_icons_002b {
+    #asset_04_icons_002 {
         background-image: url("../assets/asset_04_icons_002b.jpg") !important;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         background-color: red;
     }
-    #asset_04_icons_003b {
+    #asset_04_icons_003 {
         background-image: url("../assets/asset_04_icons_003b.jpg") !important;
         background-position: center;
         background-size: cover;
     }
-    #asset_08_cable_car_001b {
+    #asset_08_cable_car_001 {
         background-image: url("../assets/asset_08_cable_car_001b.jpg") !important;
         background-position: center;
         background-size: cover;
@@ -575,7 +554,6 @@ img {
 */
 
 .custom {
-    display: inline-block;
     height: 3rem;
     position: absolute;
     width: auto;
