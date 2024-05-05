@@ -269,28 +269,80 @@ a:hover {
     }
 }
 
-/* image sources */
+/* img src */
 
 #asset_01_concrete_000 {
     background-image: url("../assets/asset_01_concrete_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
-#asset_01_concrete_001 {
-    background-image: url("../assets/asset_01_concrete_001.jpg") !important;
+#asset_01_concrete_002 {
+    background-image: url("../assets/asset_01_concrete_002.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_01_concrete_003 {
+    background-image: url("../assets/asset_01_concrete_003.jpg") !important;
     background-position: center;
     background-size: cover;
 }
-
-
-
+#asset_01_concrete_004 {
+    background-image: url("../assets/asset_01_concrete_004.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_01_concrete_005 {
+    background-image: url("../assets/asset_01_concrete_005.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
 #asset_02_furka_000 {
     background-image: url("../assets/asset_02_furka_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
+#asset_02_furka_002 {
+    background-image: url("../assets/asset_02_furka_002.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_02_furka_004 {
+    background-image: url("../assets/asset_02_furka_004.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_02_furka_005 {
+    background-image: url("../assets/asset_02_furka_005.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
 #asset_03_cupcake_000 {
     background-image: url("../assets/asset_03_cupcake_000.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_03_cupcake_001 {
+    background-image: url("../assets/asset_03_cupcake_001.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_03_cupcake_002 {
+    background-image: url("../assets/asset_03_cupcake_002.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_03_cupcake_003 {
+    background-image: url("../assets/asset_03_cupcake_003.jpg") !important;
     background-position: center;
     background-size: cover;
 }
@@ -299,25 +351,207 @@ a:hover {
     background-position: center;
     background-size: cover;
 }
+#asset_04_icons_004 {
+    background-image: url("../assets/asset_04_icons_004.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_04_icons_005 {
+    background-image: url("../assets/asset_04_icons_005.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
 #asset_05_vespa_riders_000 {
     background-image: url("../assets/asset_05_vespa_riders_000.jpg") !important;
     background-position: center;
     background-size: cover;
+}
+#asset_05_vespa_riders_001 {
+    background-image: url("../assets/asset_05_vespa_riders_001.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_05_vespa_riders_002 {
+    background-image: url("../assets/asset_05_vespa_riders_002.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_05_vespa_riders_003 {
+    background-image: url("../assets/asset_05_vespa_riders_003.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_05_vespa_riders_004 {
+    background-image: url("../assets/asset_05_vespa_riders_004.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
 }
 #asset_06_whipped_cream_000 {
     background-image: url("../assets/asset_06_whipped_cream_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
+#asset_06_whipped_cream_001 {
+    background-image: url("../assets/asset_06_whipped_cream_001.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_06_whipped_cream_002 {
+    background-image: url("../assets/asset_06_whipped_cream_002.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_06_whipped_cream_003 {
+    background-image: url("../assets/asset_06_whipped_cream_003.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_06_whipped_cream_004 {
+    background-image: url("../assets/asset_06_whipped_cream_004.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
 #asset_07_giftcard_000 {
     background-image: url("../assets/asset_07_giftcard_000.jpg") !important;
     background-position: center;
     background-size: cover;
 }
+#asset_07_giftcard_001 {
+    background-image: url("../assets/asset_07_giftcard_001.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_07_giftcard_002 {
+    background-image: url("../assets/asset_07_giftcard_002.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+#asset_07_giftcard_003 {
+    background-image: url("../assets/asset_07_giftcard_003.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#asset_07_giftcard_004 {
+    background-image: url("../assets/asset_07_giftcard_004.jpg") !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+}
 #asset_08_cable_car_000 {
     background-image: url("../assets/asset_08_cable_car_000.jpg") !important;
     background-position: center;
     background-size: cover;
+}
+
+/* img src mobile */
+
+@media only screen and (max-width: 767px) {
+    #asset_01_concrete_001b {
+        background-image: url("../assets/asset_01_concrete_001b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_02_furka_001b {
+        background-image: url("../assets/asset_02_furka_001b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_02_furka_003b {
+        background-image: url("../assets/asset_02_furka_003b.jpg") !important;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: red;
+    }
+    #asset_04_icons_001b {
+        background-image: url("../assets/asset_04_icons_001b.jpg") !important;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: red;
+    }
+    #asset_04_icons_002b {
+        background-image: url("../assets/asset_04_icons_002b.jpg") !important;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: red;
+    }
+    #asset_04_icons_003b {
+        background-image: url("../assets/asset_04_icons_003b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_08_cable_car_001b {
+        background-image: url("../assets/asset_08_cable_car_001b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+/* img src but mobile */
+
+@media only screen and (min-width: 768px) {
+    #asset_01_concrete_001 {
+        background-image: url("../assets/asset_01_concrete_001.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_02_furka_001 {
+        background-image: url("../assets/asset_02_furka_001.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_02_furka_003 {
+        background-image: url("../assets/asset_02_furka_003.jpg") !important;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: red;
+    }
+    #asset_04_icons_001 {
+        background-image: url("../assets/asset_04_icons_001.jpg") !important;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: red;
+    }
+    #asset_04_icons_002 {
+        background-image: url("../assets/asset_04_icons_002.jpg") !important;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: red;
+    }
+    #asset_04_icons_003 {
+        background-image: url("../assets/asset_04_icons_003.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_08_cable_car_001 {
+        background-image: url("../assets/asset_08_cable_car_001.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 /* carousel leftover css *//*
@@ -336,4 +570,66 @@ img {
 * {
     background-color: rgba(255, 0, 0, .2);
     outline: 1px dashed black !important;
+}
+
+*/
+
+.custom {
+    display: inline-block;
+    height: 3rem;
+    position: absolute;
+    width: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 4rem;
+    height: .5rem;
+    z-index: 100;
+    animation: bounce 1s ease infinite;
+    text-shadow: .25rem .25rem .5rem black;
+    font-size: 3rem;
+}
+@keyframes bounce {
+    50% {
+        -webkit-transform: translate(-50%, -1rem);
+        -moz-transform: translate(-50%, -1rem);
+        -ms-transform: translate(-50%, -1rem);
+        -o-transform: translate(-50%, -1rem);
+        transform: translate(-50%, -1rem);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.video {
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#cablecar, #cupcake, #whippedcream {
+    object-fit: cover;
+}
+#cablecar {
+    bottom: 0;
+    width: inherit;
+}
+#cupcake, #whippedcream {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
