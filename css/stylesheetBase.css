@@ -280,7 +280,9 @@ a:hover {
 #asset_09_sunny_side_up_005 {
     background-image: url("../assets/asset_09_sunny_side_up_005.jpg") !important;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
 }
 #asset_09_sunny_side_up_007 {
     background-image: url("../assets/asset_09_sunny_side_up_007.jpg") !important;
@@ -290,7 +292,9 @@ a:hover {
 #asset_09_sunny_side_up_008 {
     background-image: url("../assets/asset_09_sunny_side_up_008.jpg") !important;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
 }
 #asset_02_furka_002 {
     background-image: url("../assets/asset_02_furka_002.jpg") !important;
@@ -316,14 +320,14 @@ a:hover {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_03_cupcake_002 {
     background-image: url("../assets/asset_03_cupcake_002.jpg") !important;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_03_cupcake_003 {
     background-image: url("../assets/asset_03_cupcake_003.jpg") !important;
@@ -335,7 +339,7 @@ a:hover {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_05_vespa_riders_001 {
     background-image: url("../assets/asset_05_vespa_riders_001.jpg") !important;
@@ -347,21 +351,21 @@ a:hover {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_05_vespa_riders_003 {
     background-image: url("../assets/asset_05_vespa_riders_003.jpg") !important;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_05_vespa_riders_004 {
     background-image: url("../assets/asset_05_vespa_riders_004.jpg") !important;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_06_whipped_cream_001 {
     background-image: url("../assets/asset_06_whipped_cream_001.jpg") !important;
@@ -373,7 +377,7 @@ a:hover {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: black;
 }
 #asset_06_whipped_cream_003 {
     background-image: url("../assets/asset_06_whipped_cream_003.jpg") !important;
@@ -385,7 +389,7 @@ a:hover {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_07_giftcard_001 {
     background-image: url("../assets/asset_07_giftcard_001.jpg") !important;
@@ -402,14 +406,14 @@ a:hover {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_07_giftcard_004 {
     background-image: url("../assets/asset_07_giftcard_004.jpg") !important;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 
 /* img src mobile */
@@ -433,7 +437,9 @@ a:hover {
     #asset_09_sunny_side_up_001 {
         background-image: url("../assets/asset_09_sunny_side_up_001b.jpg") !important;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
     }
     #asset_09_sunny_side_up_003 {
         background-image: url("../assets/asset_09_sunny_side_up_003b.jpg") !important;
@@ -443,7 +449,9 @@ a:hover {
     #asset_09_sunny_side_up_006 {
         background-image: url("../assets/asset_09_sunny_side_up_006b.jpg") !important;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
     }
     #asset_02_furka_000 {
         background-image: url("../assets/asset_02_furka_000b.jpg") !important;
@@ -477,14 +485,14 @@ a:hover {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: red;
+        background-color: white;
     }
     #asset_04_icons_002 {
         background-image: url("../assets/asset_04_icons_002b.jpg") !important;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: red;
+        background-color: white;
     }
     #asset_04_icons_003 {
         background-image: url("../assets/asset_04_icons_003b.jpg") !important;
@@ -549,7 +557,9 @@ a:hover {
     #asset_09_sunny_side_up_001 {
         background-image: url("../assets/asset_09_sunny_side_up_001.jpg") !important;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
     }
     #asset_09_sunny_side_up_003 {
         background-image: url("../assets/asset_09_sunny_side_up_003.jpg") !important;
@@ -559,7 +569,9 @@ a:hover {
     #asset_09_sunny_side_up_006 {
         background-image: url("../assets/asset_09_sunny_side_up_006.jpg") !important;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: white;
     }
     #asset_02_furka_000 {
         background-image: url("../assets/asset_02_furka_000.jpg") !important;
@@ -593,14 +605,14 @@ a:hover {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: red;
+        background-color: white;
     }
     #asset_04_icons_002 {
         background-image: url("../assets/asset_04_icons_002.jpg") !important;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: red;
+        background-color: white;
     }
     #asset_04_icons_003 {
         background-image: url("../assets/asset_04_icons_003.jpg") !important;
