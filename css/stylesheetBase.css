@@ -250,11 +250,7 @@ a:hover {
 
 /* img src */
 
-#asset_01_concrete_000 {
-    background-image: url("../assets/asset_01_concrete_000.jpg") !important;
-    background-position: center;
-    background-size: cover;
-}
+
 #asset_01_concrete_002 {
     background-image: url("../assets/asset_01_concrete_002.jpg") !important;
     background-position: center;
@@ -277,11 +273,6 @@ a:hover {
     background-position: center;
     background-size: cover;
 }
-#asset_02_furka_000 {
-    background-image: url("../assets/asset_02_furka_000.jpg") !important;
-    background-position: center;
-    background-size: cover;
-}
 #asset_02_furka_002 {
     background-image: url("../assets/asset_02_furka_002.jpg") !important;
     background-position: center;
@@ -300,11 +291,6 @@ a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: red;
-}
-#asset_03_cupcake_000 {
-    background-image: url("../assets/asset_03_cupcake_000.jpg") !important;
-    background-position: center;
-    background-size: cover;
 }
 #asset_03_cupcake_001 {
     background-image: url("../assets/asset_03_cupcake_001.jpg") !important;
@@ -325,11 +311,6 @@ a:hover {
     background-position: center;
     background-size: cover;
 }
-#asset_04_icons_000 {
-    background-image: url("../assets/asset_04_icons_000.jpg") !important;
-    background-position: center;
-    background-size: cover;
-}
 #asset_04_icons_004 {
     background-image: url("../assets/asset_04_icons_004.jpg") !important;
     background-position: center;
@@ -343,11 +324,6 @@ a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-color: red;
-}
-#asset_05_vespa_riders_000 {
-    background-image: url("../assets/asset_05_vespa_riders_000.jpg") !important;
-    background-position: center;
-    background-size: cover;
 }
 #asset_05_vespa_riders_001 {
     background-image: url("../assets/asset_05_vespa_riders_001.jpg") !important;
@@ -375,11 +351,6 @@ a:hover {
     background-repeat: no-repeat;
     background-color: red;
 }
-#asset_06_whipped_cream_000 {
-    background-image: url("../assets/asset_06_whipped_cream_000.jpg") !important;
-    background-position: center;
-    background-size: cover;
-}
 #asset_06_whipped_cream_001 {
     background-image: url("../assets/asset_06_whipped_cream_001.jpg") !important;
     background-position: center;
@@ -406,11 +377,6 @@ a:hover {
     background-repeat: no-repeat;
     background-color: red;
 }
-#asset_07_giftcard_000 {
-    background-image: url("../assets/asset_07_giftcard_000.jpg") !important;
-    background-position: center;
-    background-size: cover;
-}
 #asset_07_giftcard_001 {
     background-image: url("../assets/asset_07_giftcard_001.jpg") !important;
     background-position: center;
@@ -435,17 +401,22 @@ a:hover {
     background-repeat: no-repeat;
     background-color: red;
 }
-#asset_08_cable_car_000 {
-    background-image: url("../assets/asset_08_cable_car_000.jpg") !important;
-    background-position: center;
-    background-size: cover;
-}
 
 /* img src mobile */
 
 @media only screen and (max-width: 767px) {
+    #asset_01_concrete_000 {
+        background-image: url("../assets/asset_01_concrete_000b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
     #asset_01_concrete_001 {
         background-image: url("../assets/asset_01_concrete_001b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_02_furka_000 {
+        background-image: url("../assets/asset_02_furka_000b.jpg") !important;
         background-position: center;
         background-size: cover;
     }
@@ -460,6 +431,16 @@ a:hover {
         background-size: contain;
         background-repeat: no-repeat;
         background-color: red;
+    }
+    #asset_03_cupcake_000 {
+        background-image: url("../assets/asset_03_cupcake_000b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_04_icons_000 {
+        background-image: url("../assets/asset_04_icons_000b.jpg") !important;
+        background-position: center;
+        background-size: cover;
     }
     #asset_04_icons_001 {
         background-image: url("../assets/asset_04_icons_001b.jpg") !important;
@@ -480,6 +461,26 @@ a:hover {
         background-position: center;
         background-size: cover;
     }
+    #asset_05_vespa_riders_000 {
+        background-image: url("../assets/asset_05_vespa_riders_000b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_06_whipped_cream_000 {
+        background-image: url("../assets/asset_06_whipped_cream_000b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_07_giftcard_000 {
+        background-image: url("../assets/asset_07_giftcard_000b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_08_cable_car_000 {
+        background-image: url("../assets/asset_08_cable_car_000b.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
     #asset_08_cable_car_001 {
         background-image: url("../assets/asset_08_cable_car_001b.jpg") !important;
         background-position: center;
@@ -490,8 +491,18 @@ a:hover {
 /* img src but mobile */
 
 @media only screen and (min-width: 768px) {
+    #asset_01_concrete_000 {
+        background-image: url("../assets/asset_01_concrete_000.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
     #asset_01_concrete_001 {
         background-image: url("../assets/asset_01_concrete_001.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_02_furka_000 {
+        background-image: url("../assets/asset_02_furka_000.jpg") !important;
         background-position: center;
         background-size: cover;
     }
@@ -506,6 +517,16 @@ a:hover {
         background-size: contain;
         background-repeat: no-repeat;
         background-color: red;
+    }
+    #asset_03_cupcake_000 {
+        background-image: url("../assets/asset_03_cupcake_000.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_04_icons_000 {
+        background-image: url("../assets/asset_04_icons_000.jpg") !important;
+        background-position: center;
+        background-size: cover;
     }
     #asset_04_icons_001 {
         background-image: url("../assets/asset_04_icons_001.jpg") !important;
@@ -523,6 +544,26 @@ a:hover {
     }
     #asset_04_icons_003 {
         background-image: url("../assets/asset_04_icons_003.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_05_vespa_riders_000 {
+        background-image: url("../assets/asset_05_vespa_riders_000.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_06_whipped_cream_000 {
+        background-image: url("../assets/asset_06_whipped_cream_000.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_07_giftcard_000 {
+        background-image: url("../assets/asset_07_giftcard_000.jpg") !important;
+        background-position: center;
+        background-size: cover;
+    }
+    #asset_08_cable_car_000 {
+        background-image: url("../assets/asset_08_cable_car_000.jpg") !important;
         background-position: center;
         background-size: cover;
     }
