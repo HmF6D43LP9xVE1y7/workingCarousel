@@ -55,10 +55,13 @@
     margin: 0 .5rem;
     height: .5rem;
     width: .5rem;
+    box-shadow: .25rem .25rem .5rem black;
   }
   .jsCarousel .jsCarousel-dots li.is-active {
     background: white;
-    box-shadow: 0 0 .5rem .25rem white;
+    height: 1rem;
+    margin: -.25rem .5rem;
+    box-shadow: .25rem .25rem .5rem black;
   }
   /*
   .jsCarousel .jsCarousel-dots li:hover {

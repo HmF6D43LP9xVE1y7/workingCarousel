@@ -56,13 +56,13 @@ body {
     -o-text-decoration: underline;
     text-decoration: underline;
 }
-.colorWhite {
+.colorWhite, .colorWhite a {
     color: rgba(255, 255, 255, 1) !important;
 }
-.colorBlack {
+.colorBlack, .colorBlack a {
     color: rgba(0, 0, 0, 1) !important;
 }
-.colorCustom {
+.colorCustom, .colorCustom a {
     color: #8ad7cb !important;
 }
 a {
@@ -96,16 +96,6 @@ a:hover {
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.dscrL {
-    width: 100%;
-}
-.dscrM, .dscrS {
-    width: 75%;
-    color: black;
-}
-.dscrL a, .dscrM a, .dscrS a {
-    color: black;
-}
 
 /* page fadein stuff */
 
@@ -135,9 +125,6 @@ a:hover {
         font-size: calc(calc(var(--viewWidth) / var(--gridWidth)) * .675);
         line-height: calc(calc(var(--viewWidth) / var(--gridWidth)) * .75);
     }
-    div[class^="asset_"], div[class*="asset_"]{
-        display: inline-block;
-    }
     .asset {
         width: 100vw;
         height: 100vh;
@@ -148,10 +135,16 @@ a:hover {
     }
     .asset_3L, .asset_3R, .asset_TL, .asset_TR, .asset_BL, .asset_BR {
         width: 100vw;
-        height: 30vh;
+        height: 33.333vh;
     }
     .asset_BL, .asset_BR {
         bottom: 0 !important;
+    }
+    .dscrL {
+        width: 100%;
+    }
+    .dscrM, .dscrS {
+        width: 75%;
     }
 }
 
@@ -179,9 +172,6 @@ a:hover {
 /* tablet and above */
 
 @media only screen and (min-width: 768px) {
-    div[class^="asset_"], div[class*="asset_"]{
-        display: inline-block;
-    }
     .asset {
         width: 100vw;
         height: 100%;
@@ -202,6 +192,12 @@ a:hover {
     }
     .asset_BL, .asset_BR {
         bottom: 0 !important;
+    }
+    .dscrL {
+        width: 100%;
+    }
+    .dscrM, .dscrS {
+        width: 50%;
     }
 }
 
@@ -283,14 +279,14 @@ a:hover {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_02_furka_005 {
     background-image: url("../assets/asset_02_furka_005.jpg") !important;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
 }
 #asset_03_cupcake_001 {
     background-image: url("../assets/asset_03_cupcake_001.jpg") !important;
@@ -430,7 +426,7 @@ a:hover {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: red;
+        background-color: white;
     }
     #asset_03_cupcake_000 {
         background-image: url("../assets/asset_03_cupcake_000b.jpg") !important;
@@ -516,7 +512,7 @@ a:hover {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: red;
+        background-color: white;
     }
     #asset_03_cupcake_000 {
         background-image: url("../assets/asset_03_cupcake_000.jpg") !important;
